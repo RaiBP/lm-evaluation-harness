@@ -19,6 +19,7 @@ from . import hellaswag
 from . import swag
 from . import openbookqa
 from . import squad
+from . import xquad
 from . import naturalqs
 from . import nqopen
 from . import sat
@@ -335,6 +336,19 @@ TASK_REGISTRY = {
     "haerae_rc": haerae.RC,
     "haerae_rw": haerae.RW,
     "haerae_sn": haerae.SN,
+    # xquad tasks
+    "xquad_ar": xquad.XQuADAr,
+    "xquad_de": xquad.XQuADDe,
+    "xquad_zh": xquad.XQuADZh,
+    "xquad_vi": xquad.XQuADVi,
+    "xquad_en": xquad.XQuADEn,
+    "xquad_es": xquad.XQuADEs,
+    "xquad_hi": xquad.XQuADHi,
+    "xquad_el": xquad.XQuADEl,
+    "xquad_th": xquad.XQuADTh,
+    "xquad_tr": xquad.XQuADTr,
+    "xquad_ru": xquad.XQuADRu,
+    "xquad_ro": xquad.XQuADRo,
     # Requires manual download
     # Requires manual download of data.
     # "storycloze_2016": storycloze.StoryCloze2016,
