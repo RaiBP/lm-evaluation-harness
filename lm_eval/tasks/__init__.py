@@ -85,6 +85,8 @@ selected_translation_benchmarks = {
     **gpt3_translation_benchmarks,
     "wmt20": sacrebleu.get_langpairs_for_testset("wmt20"),
     "iwslt17": ["en-ar", "ar-en"],  # Arabic
+    "wmt13": ["en-es", "es-en"],  # Spanish
+    "wmt09": ["en-it", "it-en"],  # Italian
 }
 
 # 319 total
